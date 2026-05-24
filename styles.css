@@ -268,3 +268,30 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+
+.intro_text a {
+  color: var(--text-decoration-color);
+}
+
+.resume__easter-egg {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--durability-text-color);
+  margin-top: -10px;
+  padding-bottom: 20px;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.resume:hover .resume__easter-egg {
+  opacity: 1;
+}
+
+.resume--party {
+  box-shadow: 1px 1px 7px 7px #ffe0b2;
+  border-color: var(--text-decoration-color);
+}
+
+.resume--party .contact-info__header {
+  text-decoration-style: wavy;
+}
